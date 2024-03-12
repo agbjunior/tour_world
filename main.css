@@ -1,0 +1,49 @@
+
+.container{
+    max-width: 1024px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+body{
+    background-color: rgba(6, 75, 223, 0.813);
+}
+
+.navbar{
+    background-color: rgba(0, 255, 255, 0.576);
+}
+
+.nav .nav-link.active{
+    background-color: rgb(221, 222, 236);
+    color: rgba(0, 255, 255, 0.576);
+    margin-top: 10px;
+}
+
+.navbar-brand, .nav .nav-link, .navbar-brand:hover{
+    color: white;
+}
+
+.navbar-toggler{
+    background-color: rgba(62, 80, 240, 0.456);
+}
+
+.carousel-item img{
+    width: 100%;
+}
+
+.text-colored{
+    color: white;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links a{
+    text-decoration: none;
+}
+
+#contacto button{
+    color: rgba(0, 255, 255, 0.576);
+}
